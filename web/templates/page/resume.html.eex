@@ -1,0 +1,87 @@
+<div class="row">
+  <h3>Experience</h3>
+  <hr />
+  <h4>Senior Software Engineer at Effective Software Solutions, Inc. <small>March 2015 - Present</small></h4>
+
+  <hr />
+  <h4>Senior Software Engineer at PROTEUS Technologies <small>June 2014 - March 2015</small></h4>
+  <h5>Project D <small>August 2014 - March 2015</small></h5>
+  <ul>
+    <li>Developed user stories and api documents for system</li>
+    <li>Developed prototype tool using Ruby on Rails</li>
+  </ul>
+
+  <h5>IMC Project <small>June 2014 - October 2014</small></h5>
+  <ul>
+    <li>Co-authored winning IMC proposal</li>
+    <li>Modified Android Booloader to include security enhancements</li>
+    <li>Presented findings to customer</li>
+  </ul>
+
+  <hr />
+  <h4>Senior Cyber Engineer at Raytheon <small>August 2013 - June 2014</small></h4>
+  <ul>
+    <li>Performed vulnerability analysis of various applications using a combination of custom fuzzing frameworks and IDA Pro</li>
+    <li>Performed vulnerability analysis on a micro controller platform, successfully reverse engineered data encoding method on target</li>
+    <li>Performed code audits on open source products</li>
+    <li>Developed extensions to custom analysis platform using C and used data to enhance IDA databases using IDAPython</li>
+    <li>Performed research on static code analysis with a focus on finding methods of enhancing static analysis capabilities with data from dynamic program runs</li>
+    <li>Developed document database with a Backbone.js and Twitter Bootstrap front-end, Django middleware, and programmaticly utilized a combination of Git and MySQL for storage</li>
+  </ul>
+
+  <hr />
+  <h4>Software Engineer at PROTEUS Technologies <small>July 2010 - August 2013</small></h4>
+  <h5>Security Research <small>January 2013-August 2013</small></h5>
+  <ul>
+    <li>Developing fuzzing capabilities for the Android platform</li>
+    <li>Working with and building upon the MWR Mercury Framework</li>
+    <li>Assisted with development of internal prototype capabilities</li>
+  </ul>
+
+  <h5>Project C Software Engineer <small>January 2013-August 2013</small></h5>
+  <ul>
+    <li>Developed QRC prototype capabilities using JRuby, Ruby on Rails, JQuery, Backbone.js, Redis, Twitter Bootstrap, and Oracle</li>
+    <li>Developed administration tools for maintaining systems distributed across enterprise and off-site non-enterprise locations using Ruby, Python, and Bash</li>
+    <li>Developed processes and tools for deploying systems at off-site non-enterprise locations</li>
+    <li>Enhanced and expanded an existing Java Spring web application</li>
+    <li>Deployed systems and tools to off-site non-enterprise locations</li>
+  </ul>
+
+  <h5>Project B Software Engineer <small>February 2012-January 2013</small></h5>
+  <ul>
+    <li>Maintained, updated, and refactored a Ruby on Rails application with a MySQL database</li>
+    <li>Administered 25+ virtual servers distributed across the enterprise</li>
+    <li>Developed Puppet scripts for automating deployments across enterprise locations</li>
+    <li>Maintained, deployed, and setup CM tools for the team such as Gitlab, Jenkins, and RVM:FW</li>
+    <li>Expanded the project's utilization of Redis as a caching and queuing tool to enhance application performance</li>
+  </ul>
+
+  <h5>Project A Software Engineer <small>September 2010-February 2012</small></h5>
+  <ul>
+    <li>Developed Ruby on Rails application for displaying, correlating, and searching analytics data using JRuby, Ruby on Rails, and Oracle</li>
+    <li>Developed framework for building Javascript based widgets within the Ozone Widget Framework</li>
+    <li>Developed and designed QRC capabilities using Ruby on Rails, JQuery, and Backbone.js</li>
+    <li>Developed and designed processes for ingesting and tracking ingested data through its full lifecycle</li>
+    <li>Worked as a part of a agile SCRUM team</li>
+    <li>Wrote user stories and conducted research through user interviews</li>
+  </ul>
+
+  <hr />
+  <h4>Software Development Intern at Right Reason Technologies <small>January 2010 - June 2010</small></h4>
+
+  <hr />
+  <h4>Research Assistant at East Stroudsburg University <small>June 2009 - May 2010</small></h4>
+  <ul>
+    <li>Developed a Steganalysis framework for detecting hidden signals in videos using machine learning techniques</li>
+    <li>Developed a fault tolerant Java program which interfaces with a modified version of FFMPEG in order to generate test data</li>
+    <li>Led software engineering efforts and administered design, implementation and management of the project’s PostgreSQL database</li>
+  </ul>
+
+  <hr />
+  <h4>Founder at Startup <small>March 2009 - July 2009</small></h4>
+
+  <hr />
+  <h4>Web Developer at Wireless Solutions International <small>September 2007 - January 2009</small></h4>
+
+  <hr />
+</div>

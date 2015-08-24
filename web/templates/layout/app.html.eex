@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alex Bugosh</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <body>
+    <div class="container-fluid" role="main">
+      <div class="row">
+        <div class="col-xs-2" id="menu">
+          <h2 id="title"><a href="/">Alex<br/>Bugosh</a></h2>
+          <br/>
+          <ul class="list-unstyled">
+            <li><h5><a href="/about">About</a></h5></li>
+            <!-- <li><h5><a href="/writing">Writing</a></h5></li> -->
+            <li><h5><a href="/resume">Resume</a></h5></li>
+            <!-- <li><h5><a href="/projects">Projects</a></h5></li> -->
+            <li><h5><a href="/contact">Contact</a></h5></li>
+          </ul>
+          <br />
+          <ul class="list-inline">
+            <li><a target="_blank" href="https://www.linkedin.com/in/abugosh"><i class="fa fa-linkedin"></i></a></li>
+            <!-- <li><a target="_blank" href="https://twitter.com/abugosh"><i class="fa fa-twitter"></i></a></li> -->
+            <li><a target="_blank" href="https://github.com/abugosh"><i class="fa fa-github"></i></a></li>
+            <li><a href="mailto:alex@alexbugosh.com"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div> <!-- #navigation -->
+
+        <div class="col-xs-9" id="main">
+          <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+          <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+
+          <%= @inner %>
+
+        </div> <!-- #main -->
+      </div> <!-- /row -->
+    </div> <!-- /container-fluid -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>

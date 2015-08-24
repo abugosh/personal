@@ -1,0 +1,6 @@
+/* Phoenix flash messages */
+.alert:empty { display: none; }
+
+#menu a { color: black; }
+#title a { text-decoration: none; }
+
