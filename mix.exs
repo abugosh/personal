@@ -34,6 +34,9 @@ defmodule Personal.Mixfile do
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.0"},
      {:phoenix_live_reload, "~> 0.6", only: :dev},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:mailman, "~> 0.1.0"},
+     {:eiconv, github: "zotonic/eiconv"}
+   ]
   end
 end

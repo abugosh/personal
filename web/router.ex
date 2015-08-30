@@ -20,6 +20,7 @@ defmodule Personal.Router do
     get "/about", PageController, :index
     get "/resume", PageController, :resume
     get "/contact", PageController, :contact
+    post "/contact", PageController, :send_contact_request
   end
 
   # Other scopes may use custom stacks.
