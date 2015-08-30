@@ -7,20 +7,20 @@
 <div class="row">
   <form class="form-horizontal" action="/contact" method="post">
     <div class="form-group">
-      <label for="name" class="col-xs-1 control-label">Name</label>
-      <div class="col-xs-5">
+      <label for="name" class="col-md-1 control-label">Name</label>
+      <div class="col-md-5">
         <input type="text" name="name" class="form-control" id="name" placeholder="Name">
       </div>
     </div> <!-- /form-group -->
     <div class="form-group">
-      <label for="email" class="col-xs-1 control-label">Email</label>
-      <div class="col-xs-5">
+      <label for="email" class="col-md-1 control-label">Email</label>
+      <div class="col-md-5">
         <input type="email" name="email" class="form-control" id="email" placeholder="Email">
       </div>
     </div> <!-- /form-group -->
     <div class="form-group">
-      <label for="message" class="col-xs-1 control-label">Message</label>
-      <div class="col-xs-10">
+      <label for="message" class="col-md-1 control-label">Message</label>
+      <div class="col-md-10">
         <textarea class="form-control" name="message" id="message" placeholder="Message to Alex" rows="5"></textarea>
       </div>
     </div> <!-- /form-group -->
