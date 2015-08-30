@@ -15,8 +15,8 @@ defmodule Personal.PageController do
     render conn, "contact.html"
   end
 
-  def send_contact_request(conn, params) do
-    Mailman.deliver(contact_request_email(params["name"], params["email"], params["message"]), config)
+  def send_contact_request(conn, params = %{"name" => name, "email" => email, "message" => message}) do
+    Mailman.deliver(contact_request_email(name, email, message), config)
 
     conn
     |> put_flash(:info, "Email sent! I'll get back to you soon!")
