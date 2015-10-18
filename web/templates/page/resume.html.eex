@@ -1,4 +1,7 @@
 <div class="row">
+    <h1 class="text-center">Alex Bugosh<br /><small>alex@alexbugosh.com</small></h1>
+</div>
+<div class="row">
   <h3>Experience</h3>
   <hr />
   <h4>Senior Software Engineer at Effective Software Solutions, Inc. <small>March 2015 - Present</small></h4>
@@ -114,7 +117,7 @@
       <tr>
         <td>Javascript</td>
         <td>Backbone.js</td>
-        <td>RSpec</td>
+        <td>Linux</td>
       </tr>
       <tr>
         <td>Bash</td>
@@ -140,11 +143,6 @@
         <td>Elixir</td>
         <td>AJAX</td>
         <td>Scrum</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td>Linux</td>
       </tr>
     </tbody>
   </table>

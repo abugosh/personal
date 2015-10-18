@@ -17,7 +17,7 @@
   <body>
     <div class="container-fluid" role="main">
       <div class="row">
-        <nav class="navbar navbar-default visible-xs-block visible-sm-block">
+        <nav class="navbar navbar-default visible-xs-block visible-sm-block hidden-print">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-menu" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -46,7 +46,7 @@
           </div>
         </nav>
 
-        <div class="col-md-2 visible-md-block visible-lg-block" id="menu">
+        <div class="col-md-2 visible-md-block visible-lg-block hidden-print" id="menu">
           <h2 id="title"><a href="/">Alex<br/>Bugosh</a></h2>
           <br/>
           <ul class="list-unstyled">
