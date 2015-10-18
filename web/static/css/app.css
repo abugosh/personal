@@ -2,6 +2,7 @@
 .alert:empty { display: none; }
 
 #menu a { color: black; }
+#about a { text-decoration: underline; color: black; }
 #title a { text-decoration: none; }
 
 #nav-social-list { padding-left: 15px; }
