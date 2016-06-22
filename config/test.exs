@@ -8,11 +8,3 @@ config :personal, Personal.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
-
-# Configure your database
-config :personal, Personal.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "personal",
-  password: "personal",
-  database: "personal_test",
-  pool: Ecto.Adapters.SQL.Sandbox

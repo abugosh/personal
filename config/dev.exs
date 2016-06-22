@@ -26,10 +26,4 @@ config :personal, Personal.Endpoint,
 # Do not include metadata nor timestamps in development logs
 config :logger, :console, format: "[$level] $message\n"
 
-# Configure your database
-config :personal, Personal.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "personal",
-  password: "personal",
-  database: "personal_dev",
-  size: 10 # The amount of database connections in the pool
+import_config "dev.secret.exs"

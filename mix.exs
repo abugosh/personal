@@ -3,8 +3,8 @@ defmodule Personal.Mixfile do
 
   def project do
     [app: :personal,
-     version: "0.0.1",
-     elixir: "~> 1.0",
+     version: "0.0.2",
+     elixir: "~> 1.3",
      elixirc_paths: elixirc_paths(Mix.env),
      compilers: [:phoenix] ++ Mix.compilers,
      build_embedded: Mix.env == :prod,
@@ -17,8 +17,7 @@ defmodule Personal.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {Personal, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger,
-                    :phoenix_ecto, :postgrex]]
+     applications: [:phoenix, :phoenix_html, :cowboy, :logger]]
   end
 
   # Specifies which paths to compile per environment
@@ -29,13 +28,11 @@ defmodule Personal.Mixfile do
   #
   # Type `mix help deps` for examples and options
   defp deps do
-    [{:phoenix, "~> 0.16"},
-     {:phoenix_ecto, "~> 0.9"},
-     {:postgrex, ">= 0.0.0"},
-     {:phoenix_html, "~> 2.0"},
-     {:phoenix_live_reload, "~> 0.6", only: :dev},
+    [{:phoenix, "~> 1.1.6"},
+     {:phoenix_html, "~> 2.6"},
+     {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"},
-     {:mailman, "~> 0.1.0"},
+     {:mailman, "~> 0.2"},
      {:eiconv, github: "zotonic/eiconv"}
    ]
   end
