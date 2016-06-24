@@ -17,7 +17,7 @@ defmodule Personal.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {Personal, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger]]
+     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :mailman]]
   end
 
   # Specifies which paths to compile per environment
@@ -33,7 +33,8 @@ defmodule Personal.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"},
      {:mailman, "~> 0.2"},
-     {:eiconv, github: "zotonic/eiconv"}
+     {:eiconv, github: "zotonic/eiconv"},
+     {:exrm, "~> 1.0"},
    ]
   end
 end

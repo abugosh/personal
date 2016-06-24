@@ -14,7 +14,8 @@ use Mix.Config
 config :personal, Personal.Endpoint,
   http: [port: 4080],
   url: [host: "alexbugosh.com", port: 80],
-  cache_static_manifest: "priv/static/manifest.json"
+  cache_static_manifest: "priv/static/manifest.json",
+  server: true
 
 # Do not print debug messages in production
 config :logger, level: :info
