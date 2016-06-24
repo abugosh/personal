@@ -37,7 +37,7 @@
               <li>
                 <ul class="list-inline" id="nav-social-list">
                   <li><a target="_blank" href="https://www.linkedin.com/in/abugosh"><i class="fa fa-linkedin"></i></a></li>
-                  <!-- <li><a target="_blank" href="https://twitter.com/abugosh"><i class="fa fa-twitter"></i></a></li> -->
+                  <li><a target="_blank" href="https://twitter.com/abugosh"><i class="fa fa-twitter"></i></a></li>
                   <li><a target="_blank" href="https://github.com/abugosh"><i class="fa fa-github"></i></a></li>
                   <li><a href="mailto:alex@alexbugosh.com"><i class="fa fa-envelope"></i></a></li>
                 </ul>
@@ -59,7 +59,7 @@
           <br />
           <ul class="list-inline">
             <li><a target="_blank" href="https://www.linkedin.com/in/abugosh"><i class="fa fa-linkedin"></i></a></li>
-            <!-- <li><a target="_blank" href="https://twitter.com/abugosh"><i class="fa fa-twitter"></i></a></li> -->
+            <li><a target="_blank" href="https://twitter.com/abugosh"><i class="fa fa-twitter"></i></a></li>
             <li><a target="_blank" href="https://github.com/abugosh"><i class="fa fa-github"></i></a></li>
             <li><a href="mailto:alex@alexbugosh.com"><i class="fa fa-envelope"></i></a></li>
           </ul>
