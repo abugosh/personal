@@ -23,21 +23,21 @@ defmodule Personal.PageController do
     |> contact(params)
   end
 
-  def config do
+  defp config do
+    mailer_config = Application.get_env(:personal, Personal.Mailer)
     %Mailman.Context{
-      config:   %Mailman.SmtpConfig{
-        relay: Application.get_env(:personal, Personal.Mailer)[:server],
-        username: Application.get_env(:personal, Personal.Mailer)[:username],
-        password: Application.get_env(:personal, Personal.Mailer)[:password],
-        port: Application.get_env(:personal, Personal.Mailer)[:port],
-        ssl: Application.get_env(:personal, Personal.Mailer)[:ssl],
-        tls: Application.get_env(:personal, Personal.Mailer)[:tls]
-      },
+      config: %Mailman.SmtpConfig{
+        relay:    mailer_config[:server],
+        username: mailer_config[:username],
+        password: mailer_config[:password],
+        port:     mailer_config[:port],
+        ssl:      mailer_config[:ssl],
+        tls:      mailer_config[:tls]},
       composer: %Mailman.EexComposeConfig{}
     }
   end
 
-  def contact_request_email(name, email, message) do
+  defp contact_request_email(name, email, message) do
     %Mailman.Email{
       subject: "Website contact request from #{name}",
       from: @contact_form_email,
