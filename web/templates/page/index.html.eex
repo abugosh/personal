@@ -3,11 +3,11 @@
 
   <p>I'm a software engineer with lots of experience in developing and maintaining prototype web applications. My go to development stack is Ruby on Rails along with Backbone. That said I've also worked down at the firmware level, while developing security enhancements for Android platforms and even done a bit of devops and systems administration for remote mission critical systems.</p>
 
-  <p>Today I'm solving problems in multiplatform development and testing for a large <a href="http://redhawksdr.github.io/Documentation/">REDHAWK SDR</a> application. In my spare time I'm exploring <a href="http://elixir-lang.org/">Elixir</a> along with the <a href="http://www.phoenixframework.org/">Phoenix web framework</a> (this is a Phoenix site!) and reading about <a href="http://securityreactions.tumblr.com/">Infosec</a>.</p>
+  <p>Lately I've been doing work on internal services for moving from a monolithic Rails application to an AWS based SOA architecture. I've also been working on internal application plumbing problems like developing tools for enabling developers to quickly profile their code, upgrading Rails, and finding and fixing security issues. In my spare time I'm exploring <a target="_blank" href="http://elixir-lang.org/">Elixir</a> along with the <a target="_blank" href="http://www.phoenixframework.org/">Phoenix web framework</a> (this is a Phoenix site!) and reading about <a target="_blank" href="https://www.reddit.com/r/netsec/">Infosec</a>.</p>
 
   <p>When I'm away from computers I've been known to climb rocks, race cars, and read books.</p>
 
-  <p>I'm moving to Chicago in early 2016 and I'm currently looking for a job in software development. <a href="/contact">Contact me</a> if you'd like to chat about an opportunity!</p>
+  <p>I'm based in Chicago and I'm currently looking for a job in software development, ideally with a security focus. <a href="/contact">Contact me</a> if you'd like to chat about an opportunity!</p>
 </div> <!-- /row -->
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
