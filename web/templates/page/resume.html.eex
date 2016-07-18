@@ -6,7 +6,7 @@
   <hr />
   <h4>Senior Software Engineer at Avant <small>January 2016 - July 2016</small></h4>
   <ul>
-    <li>Upgarded Avant's large monolithic Rails application from Rails 3.2 to Rails 4.2</li>
+    <li>Upgraded Avant's large monolithic Rails application from Rails 3.2 to Rails 4.2</li>
     <li>Developed framework for doing performance tuning in Rails applications using profilers and ActiveSupport::Notifications</li>
     <li>Designed and prototyped a service to service authentication solution for future SOA development</li>
     <li>Managed Avant's bug bounty program</li>
